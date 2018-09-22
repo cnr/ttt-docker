@@ -64,4 +64,4 @@ generate_fastdl $WORKSHOP_ID > garrysmod/lua/autorun/server/workshop.lua
     +map ttt_minecraft_b5 \
     +host_workshop_collection $WORKSHOP_ID \
     +rcon_password $RCON_PASSWORD \
-    +hostname $SERVER_NAME
+    +hostname "$SERVER_NAME"
